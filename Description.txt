@@ -1,0 +1,23 @@
+DESCRIPTION :
+
+Limited_Predict.py: 
+In this file we have predicted the price of house using 4 features variable(selected after study from correlation matrix shown), and by fitting  linear regression line using "PREDICT" method of Linearregression class.
+
+All_Predict.py: 
+In this file we have predicted the price of house using all feature variables, and by fitting linear regression line using "PREDICT"  method of LinearRegression class.
+
+Limited_Gradient.py: 
+In this file we have predicted price of house using 4 feature variable, and fitting linear regression line using theoritical concept(Gradient Descent Algorithm).
+
+All_Gradient.py:
+In this file we have predicted price of house using all feature variables , and fitting linear regression line  using theoritical concept(Gradient Descent Algorithm).
+
+At the end of all file we have shown 'Average percentage error in predicted price as compared to original price ;for train and test set'
+and 'R2 value and Rootmeansquare error for train and test set'.
+
+From the observations of percentage error , it will be clear that difference between -percentage error using all features and 4 features is
+very less, from which we can conclude that selected 4 feature variable predicts the price very well(which is mostly close to price predicted by using all feature variables).
+
+Also R2 value(in all files) is approx 0.7 , which concludes good performance of created model.
+
+Also ,we have tried to decrease average percentage error in predicted price(By using Gradient Descent algorithm), as compared to average percentage error using "PREDICT" method of python inbuilt module. 
